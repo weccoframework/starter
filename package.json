@@ -1,7 +1,7 @@
 {
-    "name": "setlist",
+    "name": "@weccoframework/starter",
     "version": "0.1.0",
-    "description": "A pwa to manage setlists for musicians",
+    "description": "A starter for @weccoframework/core applications",
     "dependencies": {
         "@weccoframework/core": "^0.21.6"
     },
