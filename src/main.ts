@@ -10,7 +10,7 @@ class Model {
 
 type Message = "inc"
 
-function update(model: Model, message: Message): Model {
+function update(model: Model, _: Message): Model {
     return model.inc()
 }
 
