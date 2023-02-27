@@ -14,6 +14,6 @@
         "dev": "vite",
         "build": "vite build",
         "preview": "vite preview",
-        "integration-test": "playwright test"
+        "test": "playwright test"
     }
 }
