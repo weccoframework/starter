@@ -4,7 +4,7 @@
     "description": "A starter for @weccoframework/core applications",
     "homepage": "https://github.com/weccoframework/starter",
     "dependencies": {
-        "@weccoframework/core": "^0.21.6"
+        "@weccoframework/core": "^0.21.7"
     },
     "devDependencies": {
         "typescript": "^4.9.5",
