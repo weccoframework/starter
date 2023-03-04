@@ -2,6 +2,7 @@
     "name": "@weccoframework/starter",
     "version": "0.1.0",
     "description": "A starter for @weccoframework/core applications",
+    "homepage": "https://github.com/weccoframework/starter",
     "dependencies": {
         "@weccoframework/core": "^0.21.6"
     },
