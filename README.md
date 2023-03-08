@@ -8,6 +8,7 @@ The starter includes:
 * [TypeScript](https://typescriptlang.org)
 * [Vite](https://vitejs.dev)
 * [Playwright Tests](https://playwright.dev)
+* [Tailwind CSS](https://tailwindcss.com/docs/customizing-colors)
 
 The starter provides a running application using wecco's `app` feature. The app
 renders a counting button and is intentionally very simple.
