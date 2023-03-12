@@ -16,17 +16,17 @@ type Message = "inc"
 
 // update implements the "update" part of the app. It applies the given message
 // to the given model and returns a model instance to render.
-function update(model: Model, _: Message): Model {
+function update(_ctx: wecco.AppContext<Message>, model: Model, _msg: Message): Model {
     return model.inc()
 }
 
 // view implements the apps view by rendering the given model. It uses the
 // wecco.html tag for a template string.
-function view (model: Model, context: wecco.AppContext<Message>) {
+function view (ctx: wecco.AppContext<Message>, model: Model) {
     return wecco.html`
     <div class="bg-gray-50 dark:bg-slate-800 p-6 m-6">
         <h1 class="text-slate-900 dark:text-white">weccoframework/starter</h1>
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" @click=${() => context.emit("inc")}>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" @click=${() => ctx.emit("inc")}>
             You clicked me ${model.count} times
         </button>
     </div>
